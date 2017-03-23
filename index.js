@@ -6,4 +6,9 @@ var blessThisCode = function(){
     return blessing
 }
 
+var isCodeBlessed = function(){
+    return true
+}
+
 exports.blessThisCode = blessThisCode
+exports.isCodeBlessed = isCodeBlessed
