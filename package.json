@@ -1,0 +1,19 @@
+{
+  "name": "dua.js",
+  "version": "0.1.0",
+  "description": "A Node.js package for invoking divine blessings for one's Javascript code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudimk/dua.js.git"
+  },
+  "author": "Rudraksh MK <rudraksh.mk@icloud.com> (https://rudimk.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudimk/dua.js/issues"
+  },
+  "homepage": "https://github.com/rudimk/dua.js#readme"
+}
