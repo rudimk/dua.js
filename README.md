@@ -33,3 +33,7 @@ dua.blessThisCode()
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
+
+## Credits
+Inspired by a conversation with [@kshitishpurohit](https://github.com/kshitishpurohit). Built with additional blessings from 
+[@rudimk](https://github.com/rudimk).
