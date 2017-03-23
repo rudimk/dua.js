@@ -1,6 +1,6 @@
 {
   "name": "dua.js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A Node.js package for invoking divine blessings for one's Javascript code.",
   "main": "index.js",
   "scripts": {
