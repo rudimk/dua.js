@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rudimk/dua.js/issues"
   },
-  "homepage": "https://github.com/rudimk/dua.js#readme"
+  "homepage": "https://github.com/rudimk/dua.js#readme",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  }
 }
