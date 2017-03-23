@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/dua.js.svg)](https://badge.fury.io/js/dua.js)
 # dua.js
 A Node.js package for invoking divine blessings for one's Javascript code.
 
