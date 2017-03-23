@@ -1,9 +1,3 @@
-var uuid = require('uuid')
+const uuid = require('uuid')
 
-var blessThisCode = function(){
-    var blessingId = uuid.v4()
-    var blessing = `Blessing ID #${blessingId}: Our blessings are with you.`
-    return blessing
-}
-
-exports.blessThisCode = blessThisCode
+exports.blessThisCode = () => `Blessing ID #${ uuid.v4() }: Our blessings are with you.`
