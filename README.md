@@ -29,7 +29,7 @@ var dua = require('dua.js')
 That's it! When you need a blessing before running a piece of code that's particularly troublesome:
 
 ```javascript
-dua.blessThisCode()
+dua.helpMeJesus()
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
