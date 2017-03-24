@@ -1,12 +1,13 @@
-[![npm version](https://badge.fury.io/js/dua.js.svg)](https://badge.fury.io/js/dua.js)
+[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/dua.js)
 # dua.js
 A Node.js package for invoking divine blessings for one's Javascript code.
 
 ## Dua?
-`Dua` is the Hindi word for blessings/good wishes. More than the meaning, I like the sound of it; it's cute.
+`Dua` is the Hindi word for blessings/good wishes. More than the meaning, I like the sound of it; it's cute. It's a loanword from Arabic, 
+where the word has a rather different meaning.
 
 ## Why do I need this?
-For your code to run successfully, of course! Do note that this doesn't mean dua WILL run your code, no matter how buggy it is; it just means a lot 
+For your code to run successfully, of course! Do note that this doesn't mean dua *WILL* run your code, no matter how buggy it is; it just means a lot 
 of good wishes and blessings are being directed towards your code. Ultimately, karma does count. 
 
 ## But doesn't this add to my dependencies?
@@ -38,6 +39,9 @@ console.log(newDua.id)
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
+
+## I don't use Javascript..
+Yeah, but blessings are universal. Ports for Python, Ruby, Go, Rust, Swift and F# are on their way :)
 
 ## Credits
 Inspired by a conversation with [@kshitishpurohit](https://github.com/kshitishpurohit). Built with additional blessings from 
