@@ -6,7 +6,8 @@ A Node.js package for invoking divine blessings for one's Javascript code.
 `Dua` is the Hindi word for blessings/good wishes. More than the meaning, I like the sound of it; it's cute.
 
 ## Why do I need this?
-For your code to run successfully, of course!
+For your code to run successfully, of course! Do note that this doesn't mean dua WILL run your code, no matter how buggy it is; it just means a lot 
+of good wishes and blessings are being directed towards your code. Ultimately, karma does count. 
 
 ## But doesn't this add to my dependencies?
 Well...yes. But honestly, it's not a lot. Believe me, it's better than React's dependency list! And again, why not add an extra dependency
