@@ -50,5 +50,5 @@ Yeah, but blessings are universal. Ports for Python, Ruby, Go, Rust, Swift and F
 
 ## Credits
 Inspired by a conversation with [@kshitishpurohit](https://github.com/kshitishpurohit). Built with additional blessings from 
-[@rudimk](https://github.com/rudimk). Additional contributions by [@shawndellysse](https://github.com/shawndellysse) 
-and [@akashdeep-singh](https://github.com/akashdeep-singh).
+[@rudimk](https://github.com/rudimk). Additional contributions by [@shawndellysse](https://github.com/shawndellysse)
+, [@Phanatic](https://github.com/Phanatic) and [@akashdeep-singh](https://github.com/akashdeep-singh).
