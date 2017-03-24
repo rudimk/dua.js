@@ -1,3 +1,10 @@
-const uuid = require('uuid')
+'use strict';
+const uuid = require('uuid');
 
-exports.blessThisCode = () => `Blessing ID #${ uuid.v4() }: Our blessings are with you.`
+module.exports = class Dua {
+  constructor () {
+    this.id = uuid.v4();
+    this.message = `Blessing ID #${ this.id }: Our blessings are with you.`;
+    this.blessThisCode = () => this.message;
+  }
+}
