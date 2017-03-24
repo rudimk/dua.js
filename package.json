@@ -4,7 +4,7 @@
   "description": "A Node.js package for invoking divine blessings for one's Javascript code.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
