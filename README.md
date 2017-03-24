@@ -30,11 +30,16 @@ var dua = require('dua.js')
 That's it! When you need a blessing before running a piece of code that's particularly troublesome:
 
 ```javascript
-dua.blessThisCode()
+var newDua = new dua()
+console.log(newDua.message)
+// 'Blessing ID #c3877741-28e3-447b-b701-418475801fab: Our blessings are with you.'
+console.log(newDua.id)
+// 'c3877741-28e3-447b-b701-418475801fab'
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
 
 ## Credits
 Inspired by a conversation with [@kshitishpurohit](https://github.com/kshitishpurohit). Built with additional blessings from 
-[@rudimk](https://github.com/rudimk).
+[@rudimk](https://github.com/rudimk). Additional contributions by [@shawndellysse](https://github.com/shawndellysse) 
+and [@akashdeep-singh](https://github.com/akashdeep-singh).
