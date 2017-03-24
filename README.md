@@ -1,4 +1,7 @@
 [![NPM](https://nodei.co/npm/dua.js.png)](https://npmjs.org/package/dua.js)
+
+[![Build Status](https://travis-ci.org/rudimk/dua.js.svg?branch=master)](https://travis-ci.org/rudimk/dua.js)
+
 # dua.js
 A Node.js package for invoking divine blessings for one's Javascript code.
 
