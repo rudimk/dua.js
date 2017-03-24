@@ -10,4 +10,12 @@ describe("Blessing generator", function(){
         expect(testDua.id).to.be.a('string')
         expect(testDua.message).to.be.a('string')
     })
+    it("check if one's code is blessed", function(){
+        var testDua = new dua()
+        console.log(`Blessing ID ==> ${testDua.id}`)
+        console.log(`Blessing ==> ${testDua.message}`)
+        console.log(`Blessing status ===> ${testDua.isCodeBlessed()}`)
+
+        expect(testDua.isCodeBlessed()).equals(true)
+    })
 })
