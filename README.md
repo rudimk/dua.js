@@ -39,6 +39,8 @@ console.log(newDua.message)
 // 'Blessing ID #c3877741-28e3-447b-b701-418475801fab: Our blessings are with you.'
 console.log(newDua.id)
 // 'c3877741-28e3-447b-b701-418475801fab'
+console.log(newDua.isCodeBlessed())
+// true
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
