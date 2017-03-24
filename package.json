@@ -18,5 +18,8 @@
   "homepage": "https://github.com/rudimk/dua.js#readme",
   "dependencies": {
     "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
