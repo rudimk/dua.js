@@ -34,13 +34,17 @@ var dua = require('dua.js')
 That's it! When you need a blessing before running a piece of code that's particularly troublesome:
 
 ```javascript
-var newDua = new dua()
+var lang = 'de' //Specify preferred language here. See https://ctrlq.org/code/19899-google-translate-languages for a list of supported languages.
+var newDua = new dua(lang)
 console.log(newDua.message)
 // 'Blessing ID #c3877741-28e3-447b-b701-418475801fab: Our blessings are with you.'
 console.log(newDua.id)
 // 'c3877741-28e3-447b-b701-418475801fab'
 console.log(newDua.isCodeBlessed())
 // true
+newDua.translate()
+console.log(newDua.translation)
+// 'Blessing ID #675b8a97-2543-4abe-83e0-4711a50d09f3: Unsere Segnungen sind bei euch.'
 ```
 
 Every blessing comes with a unique ID, and you can even go ahead and log all your blessings. Remember, accumulated blessings are a blessing!
