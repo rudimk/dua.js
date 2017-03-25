@@ -1,6 +1,6 @@
 var expect = require('chai').expect
 //var chaiAsPromised = require("chai-as-promised")
-var dua = require('./lib.js')
+var dua = require('./index.js')
 
 //chai.use(chaiAsPromised)
 
