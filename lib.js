@@ -8,14 +8,9 @@ module.exports = class Dua {
     this.language = language
     this.message = `Blessing ID #${ this.id }: Our blessings are with you.`
     this.translation = null
+    this.translateBlessing = () => translator('Our blessings are with you.', {to: this.language}).then(res => 
+      {return `Blessing ID #${ this.id }: ${ res.text }`})
     this.blessThisCode = () => this.message
     this.isCodeBlessed = () => true
-  }
-
-  translate(){
-    translator('Our blessings are with you.', {to: this.language})
-    .then(res => {
-      this.translation = `Blessing ID #${ this.id }: ${ res.text }`
-    })
   }
 }
