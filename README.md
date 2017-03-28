@@ -25,7 +25,7 @@ First, install it:
 npm install --save dua.js
 ```
 
-Next, you need to include dua in ever single module. _Every single module_. Blessings don't work when you solicit them half-heartedly.
+Next, you need to include dua in every single module. _Every single module_. Blessings don't work when you solicit them half-heartedly.
 
 ```javascript
 var dua = require('dua.js')
