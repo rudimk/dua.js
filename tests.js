@@ -5,7 +5,7 @@ var dua = require('./index.js')
 //chai.use(chaiAsPromised)
 
 describe("Blessing generator", function(){
-    var testDua = new dua('fr')
+    var testDua = new dua()
     
     it("Generate a new blessing", function(){
         console.log(`Blessing ID ==> ${testDua.id}`)
@@ -20,14 +20,5 @@ describe("Blessing generator", function(){
         console.log(`Blessing status ===> ${testDua.isCodeBlessed()}`)
 
         expect(testDua.isCodeBlessed()).equals(true)
-    })
-    it("Check if translations work", function(){
-        console.log(`Blessing ID ==> ${testDua.id}`)
-        console.log(`Blessing ==> ${testDua.message}`)
-        console.log(`Blessing language ===> ${testDua.language}`)
-        testDua.translateBlessing().then(function(translation){
-            expect(translation).to.be.a('string')
-        })    
-        
-    })
+    })  
 })
