@@ -1,10 +1,11 @@
 {
   "name": "dua.js",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "A Node.js package for invoking divine blessings for one's Javascript code.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests.js"
+    "test": "./node_modules/.bin/mocha tests.js",
+    "postinstall": "npm-insights:log"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,11 @@
   "homepage": "https://github.com/rudimk/dua.js#readme",
   "dependencies": {
     "google-translate-api": "^2.2.2",
+    "npm-insights": "^1.0.9",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^6.1.4"
   }
 }
