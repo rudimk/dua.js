@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/rudimk/dua.js#readme",
   "dependencies": {
-    "npm-insights": "^1.0.9",
+    "npm-insights": "^2.0.1",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
